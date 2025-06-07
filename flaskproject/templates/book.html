@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>books</title>
+</head>
+<body>
+<h1>Books</h1>
+<a href="{{ url_for('addbook') }}">AddBook</a>
+</body>
+<table border="1">
+    <tr>
+        <th>Tittle</th>
+        <th>Author</th>
+        <th>Read</th>
+    </tr>
+    {% for i in di %}
+    <tr>
+        <td>{{i.Tittle}}</td>
+        <td>{{i.Author}}</td>
+        <td>{{i.Read}}</td>
+    </tr>
+    {% endfor%}
+</table>
+</html>
