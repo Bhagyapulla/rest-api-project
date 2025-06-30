@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Numbers</title>
+</head>
+<body>
+    <h1>Add Two Numbers</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="number1">Enter first number:</label>
+        <input type="text" id="number1" name="number1"><br>
+
+        <label for="number2">Enter second number:</label>
+        <input type="text" id="number2" name="number2"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

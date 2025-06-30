@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <center>
+        <h1>Author and Book Store</h1>
+
+        <a href="{% url 'Insert_author' %}" >Add Author</a>
+        <a href="{% url 'Insert_book' %}" >Add Book</a>
+
+
+        <a href="{% url 'logout' %}" >Logout</a>
+
+<br><br>
+    <table border="3" cellpadding="10" cellspacing="0" >
+
+    <script src="index.js"></script>
+        <legend><b>AUTHORS</b></legend><br>
+    <thead>
+        <th>Author_Name</th>
+         {% if request.user.is_superuser %}
+        <th>Action</th>
+        {% endif %}
+    </thead>
+        {% for i in au %}
+
+            <tr>
+
+                <td>{{i.name}}</td>
+                {% if request.user.is_superuser %}
+                <td>
+                  <a href="{% url 'edit_data' i.id %}" >Edit</a>
+                  <a href="{% url 'delete_data' i.id %}" >Delete</a>
+                </td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+  </table>
+      <br><br><br><br><br><br><br>
+      <table border="3" cellpadding="10" cellspacing="0" >
+
+    <tr>
+        <legend><b>BOOKS</b></legend><br>
+    <thead>
+
+
+        <th>Book_Name</th>
+        <th>Author</th>
+        <th>Book_price</th>
+         {% if request.user.is_superuser %}
+        <th>Action</th>
+        {% endif %}
+
+    </thead>
+    </tr>
+        {% for i in bk %}
+
+            <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.author.name}}</td>
+                <td>{{i.price}}</td>
+                  {% if request.user.is_superuser %}
+                <td>
+                  <a href="{% url 'edit' i.id %}" >Edit</a>
+                  <a href="{% url 'delete' i.id %}" >Delete</a>
+                </td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+  </table>
+
+  </center>
+
+ </body>
+</html>

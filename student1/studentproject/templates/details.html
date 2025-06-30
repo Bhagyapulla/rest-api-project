@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <table border="1" >
+        <thead>
+        <tr>
+        <th bgcolor="green">Student</th>
+        <th>Age</th>
+        <th>Course</th>
+        <th>Email_Id</th>
+        <th>Photo</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+               {% for stu in students %}
+                <td>{{stu.stu_name}}</td>
+                <td>{{stu.age}}</td>
+                <td>{{stu.course}}</td>
+                <td>{{stu.email_id}}</td>
+                <td>
+                    {% if stu.stu_photo %}
+                    <img src="{{stu.stu_photo.url}}" width="100" height="150">
+                    {% else %}
+                    NO Image
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>

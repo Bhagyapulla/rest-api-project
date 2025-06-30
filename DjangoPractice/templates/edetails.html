@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details Table</title>
+</head>
+<body>
+<table border="1" style="background-color: #f2f2f2;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for author in de %}
+        <tr>
+
+                <td>{{ author.name }}</td>
+
+            <td>
+                <a href="{% url 'aut_det' author.id %}">Add</a>
+                <a href="{% url ' author_delete'author.id  %}">Delete</a>
+
+
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<!-- <br><hr><br>-->
+
+<!--  <h2><u>Add Book</u></h2>-->
+<!--  <form method="POST" action="">-->
+<!--    {% csrf_token %}-->
+<!--    <label for="book_name">Book Name:</label>-->
+<!--    <input type="text" id="book_name" name="book_name" required><br><br>-->
+
+<!--    <label for="price">Price:</label>-->
+<!--    <input type="text" id="price" name="price" required><br><br>-->
+
+<!--    <label for="author_select">Select Author:</label>-->
+<!--    <select id="author_select" name="author_id" required>-->
+<!--      {% for author in authors %}-->
+<!--        <option value="{{ author.id }}">{{ author.id }} - {{ author.name }}</option>-->
+<!--      {% endfor %}-->
+<!--    </select><br><br>-->
+
+<!--    <button type="submit">Add Book</button>-->
+<!--  </form>-->
+
+<!--  <h3>Book List</h3>-->
+<!--  <table border="1">-->
+<!--    <tr>-->
+<!--      <th>ID</th>-->
+<!--      <th>Name</th>-->
+<!--      <th>Price</th>-->
+<!--      <th>Author ID</th>-->
+<!--      <th>Action</th>-->
+<!--    </tr>-->
+<!--    {% for book in books %}-->
+<!--    <tr>-->
+<!--      <td>{{ book.id }}</td>-->
+<!--      <td>{{ book.name }}</td>-->
+<!--      <td>{{ book.price }}</td>-->
+<!--      <td>{{ book.author.id }}</td>-->
+<!--      <td><a href="{% url 'delete_book' book.id %}">Delete</a></td>-->
+<!--    </tr>-->
+<!--    {% endfor %}-->
+<!--  </table>-->
+
+</body>
+</html>

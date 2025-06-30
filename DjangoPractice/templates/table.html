@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Department</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in info %}
+    <tr>
+      <td>{{ i.Name }}</td>
+      <td>{{ i.dept }}</td>
+      <td>{{ i.Salary }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</body>
+
+</html>

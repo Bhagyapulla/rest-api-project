@@ -3,8 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/formproject" />
+      <excludeFolder url="file://$MODULE_DIR$/rest_api" />
+      <excludeFolder url="file://$MODULE_DIR$/project" />
+      <excludeFolder url="file://$MODULE_DIR$/project2" />
+      <excludeFolder url="file://$MODULE_DIR$/rest" />
+      <excludeFolder url="file://$MODULE_DIR$/library" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (DjangoPractice)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (form)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

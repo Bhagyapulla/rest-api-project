@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }} {{ form.name() }}<br>
+        {{ form.email.label }} {{ form.email() }}<br>
+        {{ form.message.label }} {{ form.message() }}<br>
+        {{ form.submit() }}
+    </form>
+</body>
+</html>
+</body>
+</html>

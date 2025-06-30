@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1" bgcolor="red">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Author</th>
+    <th>Price</th>
+  </tr>
+  </thead>
+  {% for bok in de   %}
+  <tr>
+    <td>{{bok.book_name}}</td>
+    <td>{{bok.author.name}}</td>
+    <td>{{bok.price}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>

@@ -32,5 +32,4 @@ urlpatterns = [
     path('del_book/<int:book_id>',views.del_book,name='del_book'),
     path('edit_author/<int:auth_id>',views.edit_author,name='edit_author'),
     path('del_author/<int:auth_id>',views.del_author,name='del_author'),
-
 ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

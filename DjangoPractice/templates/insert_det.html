@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1" bgcolor="red">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Author</th>
+    <th>Price</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  {% for book in de   %}
+  <tr>
+    <td>{{book.name}}</td>
+    <td>{{book.author}}</td>
+    <td>{{book.price}}</td>
+
+    <td>
+      <a href="{% url 'insert_book'  %}" >Add</a>
+<!--      <a href="{% url 'show_det' course.id %}" >Delete</a>-->
+
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>

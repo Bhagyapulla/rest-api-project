@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <a href="{%url 'insert_book'}">Store</a>
+  <a href="{%url 'add_det' %}">AddAuthor</a>
+  <form method="POST" action="">
+    {% csrf_token %}
+    <label for="name">Book:</label>
+    <input type="text" id="name" name="name"  required><br> <br>
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required><br> <br>
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price"  required><br> <br>
+    <button type="submit">Sumit</button>
+
+
+
+  </form >
+
+</body>
+</html>

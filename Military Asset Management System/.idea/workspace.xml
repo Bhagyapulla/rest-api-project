@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c524dbca-a866-438f-819c-5233a9f72fff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Authentication/.idea/Authentication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/.idea/DSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoPractice/.idea/DjangoPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library Management/.idea/Library Management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestingProject/.idea/TestingProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/djangorest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restproject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restproject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangorest/restproject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask10/.idea/flask10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask3/.idea/flask3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask4/.idea/flask4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask6/.idea/flask6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask7/.idea/flask7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask8/.idea/flask8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask9/.idea/flask9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../middleware/.idea/middleware.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../permission/.idea/permission.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonpractice/.idea/pythonpractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restframework/.idea/restframework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servererror/.idea/servererror.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../session/.idea/session.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sqlalchemy/.idea/sqlalchemy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student1/.idea/student1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentregistration system/.idea/studentregistration system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token/.idea/token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formproject2/.idea/formproject2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../formproject2/.idea/formproject2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formproject2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../formproject2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formproject2/form_db" beforeDir="false" afterPath="$PROJECT_DIR$/../formproject2/form_db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formproject2/formapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../formproject2/formapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formproject2/formproject2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../formproject2/formproject2/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2zEV3vbkq42hPD3qjxaNBBS8v40" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "fixed-main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c524dbca-a866-438f-819c-5233a9f72fff" name="Changes" comment="" />
+      <created>1751296023699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751296023699</updated>
+    </task>
+    <servers />
+  </component>
+</project>

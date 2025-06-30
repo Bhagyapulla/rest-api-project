@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+</head>
+<body>
+    <h2>Register Form</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }} {{ form.name() }}<br>
+        {{ form.middle_name.label }} {{ form.middle_name() }}<br>
+        {{ form.last_name.label }} {{ form.last_name() }}<br>
+        {{ form.email.label }} {{ form.email() }}<br>
+        {{ form.submit() }}
+    </form>
+</body>
+</html>
